@@ -3,17 +3,40 @@
 
 h1{
     background-color: yellow;
-    color: blue;
+    color: darkblue;
     margin-top: 5px;
     margin-bottom: 5%;
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Roboto Mono', Verdana;
+    border: 2px solid black;
+}
+h1, h2 {
+    text-align: center;
 }
 .artikelkonteiner{
-    
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.artikel{
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 body{
     background-image: url("./showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidfot{
+    margin-left: 25%;
+    margin-right: 25%;
 }
