@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sofia&display=swap');
+
+
+h1{
+    background-color: yellow;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Roboto Mono', Verdana;
+}
+.artikelkonteiner{
+    
+}
+
+body{
+    background-image: url("./showcase.jpg");
+}
